@@ -11,6 +11,10 @@ services:
   adbhoney:
     build: adbhoney/.
     image: "dtagdevsec/adbhoney:2204"
+# Rdpy Service
+  Rdpy:
+    build: rdpy/.
+    image: "dtagdevsec/rdpy:1811"
 
 # Ciscoasa service
   ciscoasa:
